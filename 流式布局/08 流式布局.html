@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>流式布局</title>
+    <style>
+        /* 流式布局也称百分比布局  可随浏览器大小进行自适应显示*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        section{
+            width:100%;
+            max-width: 980px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+        section div{
+            width: 50%;
+            height: 400px;
+            float: left;
+        }
+        section div:nth-child(1){
+            background-color: pink;
+        }
+        section div:nth-child(2){
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>align-items</title>
+    <style>
+        div{
+            display:flex;
+            width:800px;
+            height: 400px;
+            background-color: #666666;
+            /*主轴是x轴  主轴的居中对齐:*/
+            justify-content: center;
+            /*侧轴居中：*/
+            /*align-items: center;*/
+
+            /*默认为flex-start  紧靠顶部*/
+            /* flex-end: 紧靠底部*/
+
+            /*拉伸（沿侧轴拉伸 拉的和父盒子一样高）:  子盒子不能给高度*/
+            align-items: stretch;
+        }
+        div span{
+            width:150px;
+           /* height: 100px;*/
+            background-color: lightskyblue;
+            color:white;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+</body>
+</html>

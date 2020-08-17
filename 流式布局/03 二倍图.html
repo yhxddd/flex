@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>二倍图</title>
+    <style>
+        /* 需要一个50*50 CSS像素的图片  放到iphone8 手机中 会方法为100*100的
+           此时 我们需要准备一个100*100 CSS像素的图片 手动将其缩小为50*50CSS像素
+           我们准备的图片比实际需要的大两倍 所以 叫做二倍图
+        */
+        img:nth-child(2){
+            /* 定位到实际为 100*100的图片 将它缩放为 50*50 */
+            width:50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<!-- 实际为50*50的图片-->
+<img scr="img/apple50(1).jpg">
+<!-- 实际100*100的图片 -->
+<img src="img/apple100.jpg">
+
+</body>
+</html>

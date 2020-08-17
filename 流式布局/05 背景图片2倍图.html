@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>背景图片二倍图</title>
+    <style>
+        /* 50*50的盒子需要一个背景图片 所以准备的图片还是要准备2倍的 100*100*/
+        /* 我们需要把图片缩放一半 使用background-size进行缩放*/
+        div{
+            width:50px;
+            height: 50px;
+            border:1px solid red;
+            background: url(img/apple100.jpg) no-repeat;
+            /* 50*50 图片100*100此时图片显示不全*/
+            background-size: 50px 50px;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

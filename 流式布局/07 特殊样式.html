@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>特殊样式</title>
+    <style>
+        a{
+            /* 去掉移动端点击时的高亮*/
+            -webkit-tap-highlight-color: transparent;
+            /* 长按链接/图片时 不弹出菜单 */
+            -webkit-touch-callout: none;
+        }
+        input{
+            /* ios 设置该属性去掉按钮的亮光效果
+            加上该属性才能给按钮和输入框自定义样式*/
+            -webkit-appearance: none;
+        }
+    </style>
+</head>
+<body>
+<a href="#">hhhh</a>
+<input type="button"/>
+</body>
+</html>

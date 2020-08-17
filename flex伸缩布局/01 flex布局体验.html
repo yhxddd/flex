@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                    maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <!-- device-width :设备宽度  initial-scale：默认缩放比率  user-scalable: no/0 不允许用户缩放-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex布局体验</title>
+    <style>
+        /* flex布局：弹性布局 为盒状模型提供很大的灵活性 任何一个容器都可以指定为flex布局*/
+        /* 为父盒子设置flex布局以后，子元素的float、clear、vertical-align属性将失效*/
+        div{
+            display:flex;
+            /* 不需要浮动就可以为span指定大小 且为自适应*/
+            width:80%;
+            height:300px;
+            background-color: pink;
+            justify-content: space-around;/*居中对齐*/
+        }
+        div span {
+            /*width:150px;*/
+            height:100px;
+            background-color: #666666;
+            margin-right: 5px;
+            flex:1;
+            /* 自动将宽度分为几等份 （几个span分几个）*/
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+</body>
+</html>

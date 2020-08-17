@@ -1,0 +1,199 @@
+body {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 14px;
+    color:#666;
+    font-family: -apple-system,Helvetica,sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+div{
+    box-sizing: border-box;
+}
+a{
+    color:#666;
+    text-decoration: none;
+}
+.app{
+    height: 45px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.app ul li{
+    height: 45px;
+    background-color: #333333;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    color:#fff;
+}
+.app ul li:nth-child(1){
+    width:8%;
+}
+.app ul li:nth-child(1) img{
+    width:10px;
+    vertical-align: middle;
+}
+.app ul li:nth-child(2){
+    width:10%;
+}
+.app ul li:nth-child(2) img{
+    width: 30px;
+    vertical-align: middle;/* 图片和文字 居中对齐*/
+    /*图片一般和文字的基线对齐 所以要使图片居中 必须加上面一行*/
+}
+.app ul li:nth-child(3){
+    width:57%;
+}
+.app ul li:nth-child(4){
+    width:25%;
+    background-color: #F63515;
+}
+
+/* 搜索
+    两边固定宽度 中间搜索框可以自适应
+    即 不给搜索框宽度 且为其加上margin-left margin-right
+*/
+.search-wrap{
+    height:44px;
+    position: fixed;
+    width:100%;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 640px;
+}
+.search-btn{
+    position: absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height: 44px;
+}
+/*:before 选择器在被选元素的内容前面插入内容。
+使用 content 属性来指定要插入的内容。*/
+.search-btn:before{
+    content: "";
+    display: block;
+    width:20px;
+    height: 18px;
+    background: url(../images/s-btn.png) no-repeat;
+    background-size: 20px 18px;
+    margin: 14px 0 0 15px;
+    line-height: 44px;
+}
+.search-login{
+    position: absolute;
+    top:0;
+    right:0;
+    width:40px;
+    height: 44px;
+    color: #fff;
+    line-height: 44px;
+}
+.search{
+    position: relative;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 50px;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+.jd-icon{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top:8px;
+    left: 13px;
+    background: url(../images/jd.png) no-repeat;
+    background-size: 20px 15px;
+}
+.jd-icon::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top:0;
+    display: block;
+    width:1px;
+    height: 15px;
+    background-color: #ccc;
+}
+.sou{
+    position: absolute;
+    top: 8px;
+    left: 46px;
+    width: 18px;
+    height: 15px;
+    background: url(../images/jd-sprites.png) no-repeat -81px 0;
+    background-size: 200px auto;
+    /* 精灵图2倍  再软件中将精灵图等比例缩为原来的一半 再去测量需要的图片的位置
+        然后在代码中 使用background-size将精灵图缩为原来的一半
+    */
+}
+.slider img {
+    width:100%;
+}
+/* 品牌日*/
+.brand{
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.brand div{
+    width:33.33%;
+    float: left;
+}
+.brand div img{
+    width:100%;
+}
+/*nav导航栏部分*/
+nav{
+    padding-top:5px;
+}
+nav a{
+    float:left;
+    width:20%;
+    text-align: center;
+}
+nav a img{
+    width:40px;
+    margin: 10px 0;
+}
+nav a span{
+    display: block;
+}
+/*news*/
+.news{
+    margin-top: 20px;
+}
+.news a{
+    float:left;
+    box-sizing: border-box;
+}
+.news img{
+     width:100%;
+ }
+.news a:nth-child(1){
+    width:50%;
+}
+.news a:nth-child(2),
+.news a:nth-child(3){
+    width:25%;
+    border-left: 1px solid #ccc;
+}
+/*
+也可以写成这样: n+2表示从第二个开始往后面选
+.news a:nth-child(n+2){
+    width:25%;
+    border-left: 1px solid #ccc;
+}
+*/
+
+
+
+
