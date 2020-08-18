@@ -50,7 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,7 +86,7 @@
       <updated>1597651707098</updated>
       <workItem from="1597651708608" duration="236000" />
       <workItem from="1597661032506" duration="5449000" />
-      <workItem from="1597738522396" duration="11901000" />
+      <workItem from="1597738522396" duration="12318000" />
     </task>
     <task id="LOCAL-00001" summary="flex布局">
       <created>1597677561828</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597759175337</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="flex布局">
+      <created>1597759411175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597759411175</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,10 +173,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="flex布局" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597759246845">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597759409357">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597759246845" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597759409357" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1597677466005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -178,10 +185,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="518" y="232" width="269" height="290" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597759380322" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1597759000453">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1597759623806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597759000453" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597759623806" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597759325362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
