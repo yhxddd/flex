@@ -40,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -140,14 +141,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597677466005" />
-    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog" timestamp="1597677732223">
+    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog" timestamp="1597758751646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597677732223" />
+    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597758751646" />
     <state x="649" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1597738522213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="649" y="225" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597738522213" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597758806070">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1597758806070" />
     <state x="636" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597748264571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
