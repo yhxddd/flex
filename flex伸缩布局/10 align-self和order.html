@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>align-self 和 order</title>
+    <style>
+        /*
+        align-self 控制子项自己再侧轴的排列方式 允许单个项目与其他项目不一样的对齐方式
+                    可覆盖 align-items 属性 默认值为auto 表示继承父元素的align-items属性 如果没有父元素 则等同于stretch
+            order 属性定义子项的排列属性（前后顺序） 数值越小 越靠前
+        */
+        div{
+            display: flex;
+            width:80%;
+            height: 300px;
+            background-color: silver;
+            /* 三个盒子均紧贴底部
+            align-items: flex-end;*/
+
+        }
+        div span {
+            width:150px;
+            height: 100px;
+            background-color: lightskyblue;
+            margin-right: 5px;
+        }
+        div span:nth-child(2) {
+            /* 默认值是0 */
+            order:-1;
+        }
+        div span:nth-child(3){
+            /* 只想让3号盒子下来底部*/
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+</body>
+</html>

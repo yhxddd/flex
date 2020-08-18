@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex子项常见属性</title>
+    <style>
+        /*  flex 分配剩余空间 子项目占的份数*/
+        section{
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        section div:nth-child(1){
+            width:100px;
+            height: 150px;
+            background-color: #666666;
+        }
+        section div:nth-child(2){
+            flex:1;
+            /* 左右两侧固定 中间自适应 flex：1指占所有*/
+            background-color: red;
+        }
+        section div:nth-child(3){
+            width:100px;
+            height: 150px;
+            background-color: palegreen;
+        }
+        p{
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+
+        p span{
+            flex:1;
+        }
+        p span:nth-child(2){
+            flex:2;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<p>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</p>
+<div></div>
+</body>
+</html>

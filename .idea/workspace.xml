@@ -2,61 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1106dabc-5286-42c0-a79e-57f4b44d5a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/flex布局.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/01 flex布局体验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/02 常见父项属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/03 主轴方向.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/04 justify-content属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/05 flex-wrap属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/06 align-items属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex伸缩布局/07 align-content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/.idea/流式布局.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/01 meta视口标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/02 物理像素比.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/03 二倍图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/04 背景缩放.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/05 背景图片2倍图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/06 css3盒子模型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/07 特殊样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/08 流式布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/apple100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/apple50(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/big(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/矢量智能对象1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/矢量智能对象1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/img/矢量智能对象1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/images/jd-sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/images/jd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/images/s-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/banner.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/nav-bg.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/nav1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/nav2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/nav3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/new1.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/new2.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/new3.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/news.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic1.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic11.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic2.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic22.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic3.dpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流式布局/jd/upload/pic33.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/08 flex-flow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/09 子项常见属性-flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/10 align-self和order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/11 背景线性渐变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/images/hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/images/localnav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/images/subnav-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex伸缩布局/携程/upload/pic6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex伸缩布局/02 常见父项属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/flex伸缩布局/02 常见父项属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/流式布局/jd/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/流式布局/jd/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +33,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\IDEAProject\flex布局\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1gDadxjK2OPt97yx9N9UEC0a4UM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,7 +62,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flex伸缩布局/携程/upload" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,6 +72,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEAProject\flex布局\flex伸缩布局\携程\upload" />
+      <recent name="C:\IDEAProject\flex布局\flex伸缩布局\携程\images" />
+      <recent name="C:\IDEAProject\flex布局\flex伸缩布局\携程\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IDEAProject\flex布局\flex伸缩布局" />
     </key>
@@ -123,29 +104,57 @@
       <option name="presentableId" value="Default" />
       <updated>1597651707098</updated>
       <workItem from="1597651708608" duration="236000" />
-      <workItem from="1597661032506" duration="4931000" />
+      <workItem from="1597661032506" duration="5449000" />
+      <workItem from="1597738522396" duration="11418000" />
     </task>
+    <task id="LOCAL-00001" summary="flex布局">
+      <created>1597677561828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597677561828</updated>
+    </task>
+    <task id="LOCAL-00002" summary="flex布局">
+      <created>1597677615460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597677615460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="flex布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="flex布局" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597677560631">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597758720274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597677560631" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597758720274" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1597677466005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597677466005" />
-    <state x="649" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1597661038663">
+    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog" timestamp="1597677732223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="649" y="225" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597661038663" />
-    <state x="471" y="132" key="svn.repositoryBrowser" timestamp="1597677534884">
+    <state x="518" y="232" width="269" height="217" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597677732223" />
+    <state x="649" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1597738522213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="471" y="132" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1597677534884" />
+    <state x="649" y="225" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597738522213" />
+    <state x="636" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597748264571">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="636" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597748264571" />
+    <state x="471" y="132" key="svn.repositoryBrowser" timestamp="1597677704442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="471" y="132" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1597677704442" />
   </component>
 </project>
