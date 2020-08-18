@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1106dabc-5286-42c0-a79e-57f4b44d5a78" name="Default Changelist" comment="" />
+    <list default="true" id="1106dabc-5286-42c0-a79e-57f4b44d5a78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +86,7 @@
       <updated>1597651707098</updated>
       <workItem from="1597651708608" duration="236000" />
       <workItem from="1597661032506" duration="5449000" />
-      <workItem from="1597738522396" duration="11659000" />
+      <workItem from="1597738522396" duration="11901000" />
     </task>
     <task id="LOCAL-00001" summary="flex布局">
       <created>1597677561828</created>
@@ -128,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597758916752</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="flex布局">
+      <created>1597759119743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597759119743</updated>
+    </task>
+    <task id="LOCAL-00008" summary="flex布局">
+      <created>1597759175337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597759175337</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,22 +166,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="flex布局" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597759117320">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1597759246845">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597759117320" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597759246845" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1597677466005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597677466005" />
-    <state x="518" y="232" width="269" height="290" key="Github.ShareDialog" timestamp="1597758958733">
+    <state x="518" y="232" width="269" height="290" key="Github.ShareDialog" timestamp="1597759380322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="518" y="232" width="269" height="290" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597758958733" />
+    <state x="518" y="232" width="269" height="290" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1597759380322" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1597759000453">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597759000453" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597759325362">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597759325362" />
     <state x="649" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1597738522213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
